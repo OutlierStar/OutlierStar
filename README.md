@@ -1,5 +1,4 @@
-### Hi, click here 👋
-http://wendxing.space/
+### Hi 👋
 <!--
 **OutlierStar/OutlierStar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
