@@ -54,6 +54,7 @@
 						
 							<div class="col" id="id">
 							</div>
+							<a id="link" href="http://114.55.244.19">链接</a>
 						<div id="loading" class="loading">
 							<span></span>
 							<span></span>
@@ -89,6 +90,8 @@
 			var i = document.getElementById("id");
 			i.innerText=getQueryString("id");
 
+			var l = document.getElementById("link");
+			l.href="http://114.55.244.19?id="+getQueryString("id");
 		</script>
 
 	</body>
