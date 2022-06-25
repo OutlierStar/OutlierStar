@@ -52,7 +52,7 @@
 		<!-- 桌号 -->
 		<div class="tableNum">
 			<span class="table-font-num">桌号</span>
-			<span class="table-font" id="tableNumer" >未知</span>
+			<span class="table-font" id="tableNumber" >未知</span>
 		</div>
 		
 		<!-- 分类导航 -->
@@ -151,13 +151,13 @@
 			}
 			if (typeof(Storage) !== "undefined") {
 				if (sessionStorage.clickcount) {
-					sessionStorage.clickcount = getQueryString("tableNumer");
+					sessionStorage.clickcount = getQueryString("tableNumber");
 				} else {
 					sessionStorage.clickcount = 0;
 				}
-				document.getElementById("tableNumer").innerText = sessionStorage.clickcount;
+				document.getElementById("tableNumber").innerText = sessionStorage.clickcount;
 			} else {
-				document.getElementById("tableNumer").innerText = getQueryString("tableNumber");
+				document.getElementById("tableNumber").innerText = getQueryString("tableNumber");
 			}
 		</script>
 	</body>
