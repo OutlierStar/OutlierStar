@@ -29,8 +29,8 @@
 		</style>
 	</head>
 	<body>
+		    <div id="userName" ></div>
 		    <div id="head"></div>
-		    
 		     <script>
 		     $("#head").load("1.html");
 		     </script>
@@ -83,7 +83,8 @@
 				}
 				return null;
 			}
-			
+			var user = document.getElementById("userName");
+			user.innerText = getQueryString("userNmae");
 			alert(getQueryString("userNmae"));
 		</script>
 	</body>
