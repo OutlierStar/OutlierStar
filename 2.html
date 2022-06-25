@@ -52,7 +52,7 @@
 		<!-- 桌号 -->
 		<div class="tableNum">
 			<span class="table-font-num">桌号</span>
-			<span class="table-font">xxxx</span>
+			<span class="table-font" id="tableNumer" >未知</span>
 		</div>
 		
 		<!-- 分类导航 -->
@@ -137,6 +137,28 @@
 				结算
 			</button>
 		</div>
-		
+		<script>
+		function getQueryString(name) {
+						var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)', 'i');
+						var r = window.location.search.substr(1).match(reg);
+						if (r != null) {
+							return unescape(r[2]);
+						}
+						return null;
+					}
+			function storeTableNum() {
+				
+			}
+			if (typeof(Storage) !== "undefined") {
+				if (sessionStorage.clickcount) {
+					sessionStorage.clickcount = getQueryString("tableNumer");
+				} else {
+					sessionStorage.clickcount = 0;
+				}
+				document.getElementById("tableNumer").innerText = sessionStorage.clickcount;
+			} else {
+				document.getElementById("tableNumer").innerText = getQueryString("tableNumer");
+			}
+		</script>
 	</body>
 </html>
