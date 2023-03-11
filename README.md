@@ -2,6 +2,9 @@
 魔方打乱https://wendxing.club
 
 扫码点餐https://food.wendxing.club
+
+五子棋AIhttp://t.csdn.cn/nWHRe
+https://github.com/OutlierStar/GobangAI
 <!--
 **OutlierStar/OutlierStar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
