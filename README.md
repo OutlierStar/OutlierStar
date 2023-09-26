@@ -1,5 +1,7 @@
 ### Hi 👋
 
+自动输入http://autoenter.wendxing.club/
+
 扫码点餐http://food.wendxing.club
 
 五子棋AI http://t.csdn.cn/nWHRe
@@ -7,7 +9,6 @@ https://github.com/OutlierStar/GobangAI
 
 魔方打乱http://wendxing.club
 
-自动输入http://autoenter.wendxing.club/
 <!--
 **OutlierStar/OutlierStar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
