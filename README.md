@@ -1,6 +1,6 @@
 ### Hi 👋
 
-自动输入http://t.csdnimg.cn/LaCEv
+自动输入[http://t.csdnimg.cn/LaCEv](http://t.csdnimg.cn/CniM8)
 
 <!--
 **OutlierStar/OutlierStar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
